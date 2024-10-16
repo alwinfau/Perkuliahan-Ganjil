@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Form</title>
+</head>
+
+<body>
+    <h1>Form Data Mahasiswa</h1>
+    <ul>
+        Type dari pada input:
+        <li>text</li>
+        <li>number</li>
+        <li>tel</li>
+        <li>password</li>
+        <li>email</li>
+        <li>radio</li>
+        <li>checkbox</li>
+        <li>time</li>
+        <li>date</li>
+    </ul>
+
+    <label for="mhs_npm">NPM:</label>
+    <input id="mhs_npm" type="number" min="0">
+    <br><br>
+
+    <label for="mhs_nama">Nama Mahasiswa:</label>
+    <input id="mhs_nama" type="text">
+    <br><br>
+
+    <label for="mhs_telp">Nomor Hp:</label>
+    <input id="mhs_telp" type="tel">
+    <br><br>
+
+    <label for="mhs_email">Email Mahasiswa:</label>
+    <input id="mhs_email" type="email">
+    <br><br>
+
+    <label for="mhs_password">Password:</label>
+    <input id="mhs_password" type="password">
+    <br><br>
+
+    <label>Jenis Kelamin:</label>
+    <select name="" id="">
+        <option value="Laki-Laki">Laki-Laki</option>
+        <option value="Perempuan">Perempuan</option>
+    </select>
+
+    <input id="mhs_laki" type="radio" name="gender">
+    <label for="mhs_laki">Laki-Laki</label>
+
+    <input id="mhs_perempuan" type="radio" name="gender">
+    <label for="mhs_perempuan">Perempuan</label>
+    <br><br>
+
+    <label>Hobby:</label>
+    <input id="mhs_berenang" type="checkbox" name="hobby">
+    <label for="mhs_berenang">Berenang</label>
+
+    <input id="mhs_badminton" type="checkbox" name="hobby">
+    <label for="mhs_badminton">Badminton</label>
+
+    <input id="mhs_selingkuh" type="checkbox" name="hobby">
+    <label for="mhs_selingkuh">Selingkuh</label>
+    <br><br>
+
+    <label for="mhs_tgllahir">Tanggal Lahir:</label>
+    <input id="mhs_tgllahir" type="date">
+    <br><br>
+
+    <label for="mhs_jamlahir">Waktu Lahir:</label>
+    <input id="mhs_jamlahir" type="time">
+    <br><br>
+
+    <label for="mhs_tglwaktu">Tanggal dan Jam:</label>
+    <input id="mhs_tglwaktu" type="datetime-local">
+    <br><br>
+
+    <label for="mhs_alamat">Alamat Mahasiswa</label>
+    <textarea name="" id="mhs_alamat" cols="30"></textarea>
+    <br><br>
+
+    <table width="100%" border="1">
+        <thead>
+            <th>No</th>
+            <th>NPM</th>
+            <th>Nama Mahasiswa</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>23110971</td>
+                <td>Amanda Manopo</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+
+</html>
