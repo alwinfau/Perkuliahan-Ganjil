@@ -1,0 +1,16 @@
+.description {
+  border: 1px solid gray;
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: "Helvetica Neue";
+  background-color: white;
+}
+
+.description img {
+  width: 100%;
+}
+
+.description:hover {
+  color: black;
+}
