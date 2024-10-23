@@ -1,0 +1,11 @@
+/* p = selector */
+
+.title {
+  color: brown;
+  font-size: 40px;
+}
+
+#description {
+  color: pink;
+  font-size: 35px;
+}
