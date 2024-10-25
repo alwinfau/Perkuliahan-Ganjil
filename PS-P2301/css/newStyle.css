@@ -5,7 +5,7 @@
 
 header {
   background-color: #047857;
-  padding: 10px;
+  padding: 10px 50px;
   .running-text {
     font-family: "Arial";
     font-weight: think;
@@ -26,14 +26,34 @@ header {
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: "Arial";
+  background-color: #f8fafc;
   figure.img {
   }
   .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     ul {
-      li.a {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
+      li a {
+        text-decoration: none;
+        margin-right: 20px;
       }
     }
     button {
+      background-color: #10b981;
+      color: #fff;
+      border: 0px;
+      padding: 10px 15px;
+      border-radius: 4px;
     }
   }
 }
