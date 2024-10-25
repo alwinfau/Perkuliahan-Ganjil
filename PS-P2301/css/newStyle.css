@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #047857;
+  padding: 10px;
+  .running-text {
+    font-family: "Arial";
+    font-weight: think;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: running 10s linear infinite;
+  }
+
+  @keyframes running {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+nav {
+  figure.img {
+  }
+  .nav-items {
+    ul {
+      li.a {
+      }
+    }
+    button {
+    }
+  }
+}
+
+main {
+}
+
+footer {
+}
